@@ -63,17 +63,11 @@ export interface FixedHeight {
   hash?: string;
 }
 
-export enum Rating {
-  G = "g",
-}
+export type Rating = "G";
 
-export enum TrendingDatetimeEnum {
-  The00000000000000 = "0000-00-00 00:00:00",
-}
+export type TrendingDatetimeEnum = "0000-00-00 00:00:00";
 
-export enum Type {
-  GIF = "gif",
-}
+export type Type = "gif";
 
 export interface User {
   avatar_url: string;
@@ -88,12 +82,7 @@ export interface User {
   is_verified: boolean;
 }
 
-export enum Username {
-  Aethyronox = "Aethyronox",
-  Empty = "",
-  Hypersonic7 = "hypersonic7",
-  Netflixlat = "netflixlat",
-}
+export type Username = "Aethyronox" | "" | "hypersonic7" | "netflixlat";
 
 export interface Meta {
   status: number;
